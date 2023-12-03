@@ -1,0 +1,365 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap);
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #f6f7fb;
+}
+
+form,
+input,
+select,
+option,
+textarea {
+  font-family: "Poppins", sans-serif;
+}
+
+.App_MainContainer__Fvvih {
+  margin-top: 100px;
+}
+.Topbar_Topbar__2is_u {
+  width: 100%;
+  padding: 0 48px;
+  box-sizing: border-box;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  box-shadow: 0 2px 4px #ccc;
+  background-color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Topbar_LeftMenu__3tQ_2 {
+  display: flex;
+  align-items: center;
+}
+
+.Topbar_LogoWrapper__2hwwN {
+  margin-right: 36px;
+  display: flex;
+  align-items: center;
+}
+
+.Topbar_LogoWrapper__2hwwN img {
+  width: 24px;
+  height: 28px;
+  margin-right: 8px;
+}
+
+.Topbar_BrandName__2xXd6 {
+  font-size: 24px;
+  letter-spacing: -1px;
+  font-weight: 500;
+  margin: 0;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.Topbar_MenuItem__3QSLp {
+  display: inline-block;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.8);
+
+  padding: 24px 0 16px;
+
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.6px;
+  margin: 0 10px;
+}
+
+.Topbar_MenuItem__3QSLp.Topbar_Active__uCUUs {
+  color: #20b883;
+  border-bottom: 3px solid #20b883;
+}
+.Homepage_PageWrapper__35FDy {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 8% 4%;
+}
+
+.Homepage_MainHeading__3eRiM {
+  margin: 0;
+}
+
+.Homepage_OrdersWrapper__A-VhO {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding: 24px 0;
+}
+
+.Homepage_FilterWrapper__2PcDK {
+  width: 180px;
+}
+
+.Homepage_FilterWrapper__2PcDK h3 {
+  margin: 0;
+}
+
+.Homepage_FilterOptions__wNuP7 {
+  display: flex;
+  flex-direction: column;
+}
+
+.Homepage_FilterCheckbox__2-zv7 {
+  margin: 6px 0;
+  cursor: pointer;
+}
+
+.Homepage_FilterCheckbox__2-zv7 input {
+  margin-right: 12px;
+}
+
+.Homepage_OrderTable__1DHO- {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.Homepage_OrderTable__1DHO- th,
+.Homepage_OrderTable__1DHO- td {
+  text-align: left;
+  padding: 12px 24px;
+  font-size: 14px;
+}
+
+.Homepage_TableRow__cSO9_ td {
+  background-color: #fff;
+  border-bottom: 4px solid #f6f7fb;
+}
+
+.Homepage_PrimaryText__1PVTP {
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 500;
+}
+
+.Homepage_SecondaryText__1or5Q {
+  color: #8c8c8c;
+}
+.ProductListingPage_PageWrapper__1hVLh {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 8% 4%;
+}
+
+.ProductListingPage_MainHeading__2bwu7 {
+  margin: 0;
+}
+
+.ProductListingPage_OrdersWrapper__17AIV {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding: 24px 0;
+}
+
+.ProductListingPage_FilterWrapper__s0fKS {
+  width: 180px;
+}
+
+.ProductListingPage_FilterWrapper__s0fKS h3 {
+  margin: 0;
+}
+
+.ProductListingPage_FilterOptions__2bq1J {
+  display: flex;
+  flex-direction: column;
+}
+
+.ProductListingPage_FilterCheckbox__wpWXC {
+  margin: 6px 0;
+  cursor: pointer;
+}
+
+.ProductListingPage_FilterCheckbox__wpWXC input {
+  margin-right: 12px;
+}
+
+.ProductListingPage_OrderTable__2rKZc {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.ProductListingPage_OrderTable__2rKZc th,
+.ProductListingPage_OrderTable__2rKZc td {
+  text-align: left;
+  padding: 12px 24px;
+  font-size: 14px;
+}
+
+.ProductListingPage_TableRow__2lrQY td {
+  background-color: #fff;
+  border-bottom: 4px solid #f6f7fb;
+}
+
+.ProductListingPage_TableRow__2lrQY.ProductListingPage_ExpiredRow__2p9Re td {
+  /* background-color: #F6F7FB; */
+}
+
+.ProductListingPage_PrimaryText__3Y-hH {
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 500;
+}
+
+.ProductListingPage_SecondaryText__31Bmu {
+  color: #8c8c8c;
+}
+.UserList_PageWrapper__11jYV {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 8% 4%;
+}
+
+.UserList_MainHeading__1Ntqz {
+  margin: 0;
+}
+
+.UserList_OrdersWrapper__8eEvi {
+  width: 100%;
+  padding: 24px 0;
+}
+
+.UserList_FilterWrapper__39u8A {
+  width: 700px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 48px;
+}
+
+.UserList_FilterWrapper__39u8A h3 {
+  margin: 0;
+}
+
+.UserList_FilterOptions__1bzC- {
+  display: flex;
+  flex-direction: column;
+}
+
+.UserList_FilterCheckbox__1CI_8 {
+  margin: 6px 0;
+  cursor: pointer;
+}
+
+.UserList_FilterCheckbox__1CI_8 input {
+  margin-right: 12px;
+}
+
+.UserList_OrderTable__1cnvQ {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.UserList_OrderTable__1cnvQ th,
+.UserList_OrderTable__1cnvQ td {
+  text-align: left;
+  padding: 12px 24px;
+  font-size: 14px;
+}
+
+.UserList_TableRow__2DK3e td {
+  background-color: #fff;
+  border-bottom: 4px solid #f6f7fb;
+}
+
+.UserList_PrimaryText__38Hc_ {
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 500;
+}
+
+.UserList_SecondaryText__3UV5v {
+  color: #8c8c8c;
+}
+
+.UserList_SearchBox__BG9wr {
+  width: calc(100% - 100px);
+  margin: 0 auto;
+  padding: 12px 24px;
+  font-size: 15px;
+  border: 0;
+  border-bottom: 2px solid #8c8c8c;
+  margin: 0;
+  margin-right: 36px;
+  outline: none;
+}
+
+.UserList_Button__1ygGK {
+  display: inline-block;
+  border-radius: 30px;
+  padding: 14px 36px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1px;
+
+  background-color: #20b883;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.LoginPage_LoginForm__3_wtJ {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 6px;
+  background-color: white;
+  margin: 0 auto;
+
+  padding: 32px;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+
+  box-shadow: 0 0 6px #ccc;
+}
+
+.LoginPage_LoginForm__3_wtJ h1 {
+  margin: 0;
+  letter-spacing: 1px;
+  font-weight: 500;
+  margin-bottom: 24px;
+}
+
+.LoginPage_InputField__2lu1x {
+  width: 100%;
+  padding-top: 16px;
+  font-size: 14px;
+  box-sizing: border-box;
+  border: 0;
+  border-bottom: 2px solid #8c8c8c;
+  margin-bottom: 16px;
+  outline: none;
+}
+
+.LoginPage_Button__qkLR7 {
+  display: inline-block;
+  border-radius: 30px;
+  padding: 14px 36px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1px;
+
+  background-color: #20b883;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  margin-top: 24px;
+}
